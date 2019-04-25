@@ -1,0 +1,78 @@
+@font-face {
+  font-family: r;
+  src: url(b_regular.ttf);
+  font-weight: regular;
+}
+@font-face {
+  font-family: b;
+  src: url(b_bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: m;
+  src: url(b_medium.otf);
+  font-weight: medium;
+}
+@font-face {
+  font-family: l;
+  src: url(b_light.ttf);
+  font-weight: light;
+}
+
+
+
+body {
+    font-family:r;
+    color: #777777;
+}
+header {
+    background-image: url(../img/Escape.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 40px 0;
+}
+.menu ul li a {
+    transition: .9s;
+    font-family: m;
+    padding: 0 15px !important;
+    font-size: 18px;
+    color: #ffffff !important;
+}
+.content {
+    margin-top: 250px;
+    padding-bottom: 180px;
+}
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center !important;
+}
+.content p {
+    font-family: l;
+    font-size: 32px;
+    color: #ffffff !important;
+}
+.content h1 {
+    font-family: b;
+    font-size: 69px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.content button {
+    margin-top: 100px;
+    font-family: r;
+    font-size: 23px;
+    padding: 10px 70px;
+    border: 2px solid white;
+    border-radius: 3%;
+    background: transparent;
+    color: #ffffff !important;
+}
+
